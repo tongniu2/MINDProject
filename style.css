@@ -39,8 +39,12 @@ p {
 }
 header {
 	color: #ccfeca;
-	background:black;
+	background:white;
 	padding:10px;
+	display: none;
+}
+header:hover {
+	visibility: visible;
 }
 content {
 	padding-bottom:200px; /* Height of the footer element */
