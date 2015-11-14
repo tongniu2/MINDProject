@@ -3,7 +3,7 @@ body {
 	margin:0;
 	padding:0;
 	height:100%;
-	background: #7ffd9a;
+	background: #ccfeca;
 }
 wrapper {
 	min-height:100%;
@@ -38,13 +38,13 @@ p {
     color: #000;
 }
 header {
-	color: #ccfeca;
+	color: #bbc1bc;
 	background:white;
 	padding:10px;
-	display: none;
+	opacity: 0.2;
 }
 header:hover {
-	display: block;
+	opacity: 1.0;
 }
 
 content {
@@ -52,7 +52,7 @@ content {
 }
 
 footer {
-	color: #ccfeca;
+	color: #bbc1bc;
 	background:#1c263c;
 	width:100%;
 	height:150px;
