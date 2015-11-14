@@ -13,13 +13,13 @@ header {
 	padding:10px;
 }
 content {
-	padding-bottom:200px; /* Height of the footer element */
+	padding-bottom:100px; /* Height of the footer element */
 }
 
 footer {
 	background:#64cbfc;
 	width:100%;
-	height:100px;
+	height:200px;
 	position:absolute;
 	bottom:0;
 	left:0;
