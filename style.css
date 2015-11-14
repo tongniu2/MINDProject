@@ -4,6 +4,17 @@ body {
 	padding:0;
 	height:100%;
 }
+wrapper {
+	min-height:100%;
+	position:relative;
+}
+header {
+	background:#64cbfc;
+	padding:10px;
+}
+content {
+	padding-bottom:100px; /* Height of the footer element */
+}
 
 footer {
 	background:#64cbfc;
