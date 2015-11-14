@@ -41,11 +41,12 @@ header {
 	color: #ccfeca;
 	background:white;
 	padding:10px;
-	visibility: collapse;
+	display: none;
 }
 header:hover {
-	visibility: visible;
+	display: block;
 }
+
 content {
 	padding-bottom:200px; /* Height of the footer element */
 }
