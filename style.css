@@ -45,8 +45,6 @@ div.home {
     position: fixed;
     top: 35%;
     left: 40%;
-    margin-top: -100px;
-    margin-left: -200px;
 }
 a:link { 
 	 text-decoration: none;
