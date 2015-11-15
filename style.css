@@ -71,6 +71,13 @@ content {
 	padding-bottom:20px; /* Height of the footer element */
 }
 
+div.feedback {
+	float: left;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
 footer {
 	color: #1c263c;
 	text-size: 10;
