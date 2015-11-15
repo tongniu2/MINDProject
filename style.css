@@ -38,6 +38,16 @@ h6 {
     font-weight: 200;
     letter-spacing: 1px;
 }
+div.home {
+    height: 400px;
+    width: 450px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
 a:link { color: ;
 	 text-decoration: none;
 }
