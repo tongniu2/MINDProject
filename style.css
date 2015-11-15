@@ -44,7 +44,7 @@ a.button {
     appearance: button;
 
     text-decoration: none;
-    color: initial;
+    color: black;
     border: 2px;
     border-color: #1c263c;
     background-color: white;
@@ -55,12 +55,13 @@ a.button:hover {
 	background-color:#ccfeca;
 	text-decoration: none;
 }
+
 p {
     font-size: 1.25em;
     line-height: 1.6;
     color: #000;
 }
-div {
+div.home {
     height: 400px;
     width: 500px;
 
