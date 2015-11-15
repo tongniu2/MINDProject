@@ -48,6 +48,7 @@ a.button {
     border-color: #1c263c;
     border-width: 2px;
     background-color: white;
+    text-align: center;
 }
 a.button:hover {
 	background-color:#ccfeca;
