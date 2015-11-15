@@ -71,7 +71,7 @@ header:hover {
 }
 
 content {
-	padding-bottom:0px; /* Height of the footer element */
+	padding-bottom: 30px; /* Height of the footer element */
 }
 
 div.feedback {
