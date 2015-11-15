@@ -88,6 +88,10 @@ div.feedback {
 	width: 100%;
 }
 
+div.chatroom {
+	border: 3px;
+}
+
 footer {
 	color: #1c263c;
 	text-size: 10;
