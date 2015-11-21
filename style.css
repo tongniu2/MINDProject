@@ -119,7 +119,7 @@ div.chatroom {
 	border: 3px;
 }
 
-div.footer {
+footer {
 	color: #1c263c;
 	text-size: 5;
 	background:#bbc1bc;
@@ -130,6 +130,6 @@ div.footer {
 	left:0;
 	opacity: 1;
 }
-div.footer:hover {
+footer:hover {
 	opacity: 1.0;
 }
