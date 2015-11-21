@@ -18,7 +18,7 @@
 
     </head>
     <body>
-        <header>
+        <div id="header">
             <img src="MIND-logo.jpg" alt="Logo" style="width:204px;height:100px;">
             <right><form action="" method="post">
                 Username:<br>
@@ -26,7 +26,7 @@
                 <br>
                 Password:<br>
                 <input type="text" name="password">
-            </form></right></header>
+            </form></right></div>
         <!--{% block content %}{% endblock %} -->
         <div class="home">
             <div class="row">
@@ -39,7 +39,7 @@
             </div>
         </div>
         
-        <footer>
+        <div id="footer">
             <center>
                 <p>Peer Support Service brought to you by The MIND Project McGill. Click <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">here</a> to give us your feedback.</p>
                 <div id="light" class="white_content"> 
@@ -57,6 +57,6 @@
                     <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div>
                 <div id="fade" class="black_overlay"></div>
             </center>
-        </footer>
+        </div>
     </body>
 </html>
