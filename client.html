@@ -29,16 +29,25 @@
         </center>
             
         <footer>
-            <center><form action="" method="post">
+            <center>
+                <p>Peer Support Service brought to you by The MIND Project McGill. Click <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">here</a> to give us your feedback.</p>
+            </center>
+        </footer>
+        <div id="light" class="white_content" > 
+            <center>
+                    <form action="" method="post">
             On a scale of 1 to 5, how helpful do you find our service? <br>
             <input type="radio" name="rating" value="1">1
             <input type="radio" name="rating" value="2">2
             <input type="radio" name="rating" value="3">3
             <input type="radio" name="rating" value="4">4
-            <input type="radio" name="rating" value="5">5
-           <br>Share your thoughts on how we can make Chatline even more helpful:<br>
-            <textarea name="feedback" rows=3 cols=70></textarea><br></form>
-           <p>Peer Support Service brought to you by The MIND Project McGill</p></center>
-        </footer>
+            <input type="radio" name="rating" value="5">5<br><br>
+            Share your thoughts on how we can make Chatline even more helpful:<br>
+            <textarea name="feedback" rows=3 cols=50></textarea><br><br>
+            <input type="submit" value="Submit">
+                    </form>
+            </center>
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div>
+                <div id="fade" class="black_overlay"></div>
     </body>
 </html>
