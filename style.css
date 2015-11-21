@@ -49,8 +49,10 @@ a:link {
 	 text-decoration: none;
 }
 .button {
+width: 200;
+height: 100;
 font-family: Verdana, Arial, Helvetica, sans-serif; 
-font-size: 12px; 
+font-size: 18px; 
 font-weight: bold; 
 color: black;
 background-color: orange;
@@ -61,6 +63,8 @@ border-width: 2px;
 
 .button:hover {
 	background-color: white;
+	text-decoration: none;
+	color: black;
 }
 
 header {
