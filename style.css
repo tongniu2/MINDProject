@@ -68,10 +68,10 @@ a:link {
 
 
 header {
-	color:#1c263c;
-	background:orange;
+	color:white;
+	background:black;
 	padding:20px;
-	opacity: 0;
+	opacity: .7;
 }
 header:hover {
 	opacity: 1.0;
