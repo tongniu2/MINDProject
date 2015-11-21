@@ -48,7 +48,7 @@ div.home {
 a:link { 
 	 text-decoration: none;
 }
-a.button {
+.btn-default {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -61,7 +61,7 @@ a.button {
     text-align: center;
 }
 
-a.button:hover {
+.btn-default:hover {
 	background-color: white;
 	text-decoration: underline;
 }
