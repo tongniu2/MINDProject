@@ -55,25 +55,25 @@ a.button {
 
     text-decoration: none;
     color: black;
-    border: 2px;
-    border-color: #1c263c;
-    background-color: white;
+    border: 5px;
+    border-color: orange;
+    background-color: orange;
     text-align: center;
 }
 
 a.button:hover {
-	background-color:#ccfeca;
-	text-decoration: none;
+	background-color: white;
+	text-decoration: underline;
 }
 
 
-header {
+div.header {
 	color:#1c263c;
 	background:#bbc1bc;
 	padding:20px;
-	opacity: 0;
+	opacity: 1;
 }
-header:hover {
+div.header:hover {
 	opacity: 1.0;
 }
 
@@ -119,7 +119,7 @@ div.chatroom {
 	border: 3px;
 }
 
-footer {
+div.footer {
 	color: #1c263c;
 	text-size: 5;
 	background:#bbc1bc;
@@ -128,8 +128,8 @@ footer {
 	position:fixed;
 	bottom:0;
 	left:0;
-	opacity: 0;
+	opacity: 1;
 }
-footer:hover {
+div.footer:hover {
 	opacity: 1.0;
 }
