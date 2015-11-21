@@ -67,10 +67,10 @@ header {
 	color:orange;
 	background:black;
 	padding:5 px;
-	opacity: .7;
+	opacity: .5;
 }
 header:hover {
-	opacity: 1.0;
+	opacity: .7;
 }
 
 content {
