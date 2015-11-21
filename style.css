@@ -48,24 +48,20 @@ div.home {
 a:link { 
 	 text-decoration: none;
 }
-.btn-default {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+.button {
 
-    text-decoration: none;
-    color: black;
-    border: 5px;
-    border-color: orange;
-    background-color: orange;
-    text-align: center;
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+font-weight: bold; 
+color: black;
+background-color: orange;
+border: #cc8400;
+border-style: solid;
+border-width: 2px;
 }
-
-.btn-default:hover {
+.button:hover {
 	background-color: white;
-	text-decoration: underline;
 }
-
 
 header {
 	color:orange;
