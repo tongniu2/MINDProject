@@ -18,7 +18,7 @@
 
     </head>
     <body>
-        <header>The Mind Project</header>
+        <header><img src="MIND logo.gif" alt="Logo" style="width:204px;height:100px;"></header>
         <!--{% block content %}{% endblock %} -->
         <div class="home">
             <div class="row">
@@ -30,7 +30,9 @@
             </center>
             </div>
         </div>
-        
+        <p>This is the main content. To display a lightbox click <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">here</a></p>
+    <div id="light" class="white_content">This is the lightbox content. <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div>
+    <div id="fade" class="black_overlay"></div>
         <footer>
             <center>
                 <form action="" method="post">
